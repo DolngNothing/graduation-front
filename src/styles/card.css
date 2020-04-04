@@ -1,0 +1,88 @@
+el-col:hover{
+  transition: all 0.5s ease;
+}
+.mlist-enter,.mlist-leave-to{
+  opacity: 0;
+  transform: translateY(100px);
+}
+.mlist-enter-active,
+.mlist-leave-active{
+  transition: all 0.6s ease;
+}
+.box-card{
+margin-left: 30px;
+}
+
+.test{
+position: absolute;
+}
+
+.head{
+  background-color: #E9EEF3
+}
+.head1{
+  background-color: #E9EEF3;
+  position: relative;
+}
+.bread{
+  position: absolute;
+  left: 0px;
+}
+
+body .el-table th.gutter{
+  display: table-cell!important;
+  }
+
+.el-col{
+margin-bottom: 30px
+}
+.text {
+font-size: 14px;
+}
+
+.item {
+padding: 0;
+}
+
+.spanTitle{
+width:15vh;
+line-height:30px;
+padding:0px;
+margin:0px;
+font-size: 16px;
+position: absolute;
+left: 0px;
+top: -5px;
+font-weight:bold;
+}
+
+.cardContent{
+height: 30px;
+position:relative;
+}
+
+.spanText{
+display: inline-flex;
+float:left;
+width:30vh;
+line-height:30px;
+padding:0px;
+margin:0px;
+font-size: 15px;
+left: 15px;
+top: 0px;
+position: absolute;;
+}
+
+.clearfix{
+position: relative;
+}
+
+.clearfix:before,
+.clearfix:after {
+display: table;
+content: "";
+}
+.clearfix:after {
+clear: both
+}
